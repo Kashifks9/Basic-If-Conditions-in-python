@@ -1,0 +1,9 @@
+buyer_goodccredit = False
+price = 1000000
+if buyer_goodccredit:
+    print("Price is Reduce by 10% ")
+    price= price -(price*0.1)
+else:
+    print("Price is reduced by 20% ")
+    price= price -(price*0.2)
+print(f"Price is : $ {price}")
